@@ -48,5 +48,9 @@ namespace correzzione_verifica
         {
             return conto.getSaldo();
         }
+        private string getPin()
+        {
+            return pin;
+        }
     }
 }
