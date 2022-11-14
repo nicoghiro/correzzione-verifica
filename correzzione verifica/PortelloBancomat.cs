@@ -77,5 +77,9 @@ namespace correzzione_verifica
                     return i;}
             return -1;
         }
+        public CartaBancomat getCarta()
+        {
+            return cartaBancomat;
+        }
     }
 }
